@@ -1,0 +1,9 @@
+--- Thinking about a more restricted screen size setup so that when the camera follows the player there is less of a slowdown.
+
+- The tilemap vs camera causes slowness. This is possibly also related to the fact that the screen is being dynamically
+resized to the screen size.
+
+- An alternative way to size the screens would be to have the game resize to the screen size ONLY on mobile device (or under
+a certain screen width or something). On a desktop device, or over a certain size, a fixed screen size should be chosen. The
+world itself can be expanded to be bigger to work like the phaser examples online.
+
