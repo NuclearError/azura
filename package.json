@@ -1,0 +1,23 @@
+{
+  "name": "azura",
+  "version": "1.0.0",
+  "description": "## October 2016",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NuclearError/azura.git"
+  },
+  "author": "Angela Cullen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NuclearError/azura/issues"
+  },
+  "homepage": "https://github.com/NuclearError/azura#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-todo": "^5.0.0"
+  }
+}
