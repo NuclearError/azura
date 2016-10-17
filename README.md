@@ -1,22 +1,17 @@
 # Azura
 
-## Summer 2016 archived work
+## October 2016
 
-After a hiatus, this branch has been archived for reference only. 
+The October 2016 branch has been created to get the project going again, with a focus on 'just develop *something*' rather than getting bogged down in refactoring, reading and speculating about the merits of different patterns.
 
-## Ongoing game issues
+## Decisions made since summer
 
-The original Phaser setup used for this game project was intended to run easily on both a desktop browser
-and on a mobile device. While this is true, in practise the game window is treated like a basic responsive website,
-meaning that the screen area is simply resized to fit the width of the user's screen. This leads to the obvious problem
-of users on a small screen seeing a tiny game with tiny assets, and users on a large screen seeing needlessly huge assets.
-
-Further research into alternative Phaser setups, choosing between developing a browser game, or a mobile game, or both,
-has led to a prolonged pause in actual development.
+* Continue developing while following Zenva tutorials, but review the 'Basic' template files provided by PhotonStorm/Phaser on github and apply relevant settings, particularly regarding screen size.
+* The game will be primarily treated like a desktop browser game. Access on a mobile device will be accommodated as far as possible, but is not the primary focus.
+* Get a game built; worry about code standards etc afterwards.
 
 ## To Do
 
 * implement a gulp process
 * adjust .gitignore to clean up unnecessary file commits
-* make a choice on game output above
-* continue development
+* refactor the really long if/else logic
